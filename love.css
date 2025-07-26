@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+
+body{
+    background: #FFC1DA;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    color: red;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a{
+     font-family: 'Merriweather Sans', sans-serif;
+     text-decoration: none;
+     color: #F8F8E1;
+     font-size: 20px;
+     transition: transform 0.3s ease;
+
+
+}
+
+.nav a:hover{
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+   
+
+  
+    
+}
+
+input{
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+   
+    
+
+
+}
+
+section img{
+    position: absolute;
+    z-index: -1;
+}
+
+.name, .Crush-name{
+    margin-top: 10rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.about p{
+    width: 500px;
+    text-align: center;
+    margin-left: 10rem;
+    margin-top: 13rem;
+}
+
+.about p:hover{
+    cursor: crosshair;
+}
+
+.Calculate-love{
+    position: absolute;
+    padding: 15px 30px;
+    font-size: 20px;
+
+    left: 43rem;
+    color: #F8F8E1;
+    margin-top: 80px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    transition: transform 0.3s ease;
+    
+}
+
+.Calculate-love:hover{
+    color: #8ACCD5;
+    transform: scale(1.1);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 480px){
+    body{
+        padding: 0;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    section{
+        flex-direction: column;
+    }
+
+    input{
+        width: 150px;
+        height: 1px;
+    }
+
+    .name, .Crush-name{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .Crush-name{
+        margin-top: 10px;
+    }
+
+    .about{
+        display: flex;
+        justify-content: center;
+    }
+    .about p{
+        margin-left: 10px;
+        width: 350px;
+        font-size: 20px;
+        text-align: left
+        
+    }
+
+    .Calculate-love{
+        left: 7.1rem;
+        font-size: 25px;
+    }
+
+}
+
+
+@media (min-width: 600px) and (max-width: 1366px) {
+    body{
+    padding-left: 15rem;
+    padding-right: 15rem;
+    }
+
+    .Calculate-love{
+        left: 32rem;
+        font-size: 25px;
+    }
+
+    .about{
+        display: flex;
+        margin-left: -70px;
+        letter-spacing: 3px;
+        line-height: 20px;
+        width: 800px;
+       
+        
+    }
+
+   
+
+}
+
+
+body{
+    background: #FFC1DA;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    color: red;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a{
+     font-family: 'Merriweather Sans', sans-serif;
+     text-decoration: none;
+     color: #F8F8E1;
+     font-size: 20px;
+     transition: transform 0.3s ease;
+
+
+}
+
+.nav a:hover{
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+   
+
+  
+    
+}
+
+input{
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+   
+    
+
+
+}
+
+section img{
+    position: absolute;
+    z-index: -1;
+}
+
+.name, .Crush-name{
+    margin-top: 10rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.about p{
+    width: 500px;
+    text-align: center;
+    margin-left: 10rem;
+    margin-top: 13rem;
+}
+
+.about p:hover{
+    cursor: crosshair;
+}
+
+.Calculate-love{
+    position: absolute;
+    padding: 15px 30px;
+    font-size: 20px;
+
+    left: 43rem;
+    color: #F8F8E1;
+    margin-top: 80px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    transition: transform 0.3s ease;
+    
+}
+
+.Calculate-love:hover{
+    color: #8ACCD5;
+    transform: scale(1.1);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 480px){
+    body{
+        padding: 0;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    section{
+        flex-direction: column;
+    }
+
+    input{
+        width: 150px;
+        height: 1px;
+    }
+
+    .name, .Crush-name{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .Crush-name{
+        margin-top: 10px;
+    }
+
+    .about{
+        display: flex;
+        justify-content: center;
+    }
+    .about p{
+        margin-left: 10px;
+        width: 350px;
+        font-size: 20px;
+        text-align: left
+        
+    }
+
+    .Calculate-love{
+        left: 7.1rem;
+        font-size: 25px;
+    }
+
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        padding: 2rem;
+    }
+
+    h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    .Calculate-love {
+        left: 10rem;
+        font-size: 22px;
+    }
+
+    .about p {
+        width: 90%;
+        margin: 3rem auto;
+    }
+}
+
+/* ---------- Tablets: 768px – 1024px ---------- */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        padding: 5rem;
+    }
+
+    .Calculate-love {
+        left: 25rem;
+        font-size: 24px;
+    }
+
+    .about p {
+        width: 600px;
+        margin-left: 4rem;
+        font-size: 18px;
+    }
+}
+
+/* ---------- Small Laptops / Medium Screens: 1025px – 1366px ---------- */
+@media (min-width: 1025px) and (max-width: 1366px) {
+    body {
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+
+    .Calculate-love {
+        left: 32rem;
+        font-size: 24px;
+    }
+
+    .about {
+        margin-left: -70px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        width: 800px;
+    }
+}
+
+/* ---------- Large Desktops: 1367px and up ---------- */
+@media (min-width: 1367px) {
+    body {
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
+
+    .Calculate-love {
+        left: 43rem;
+        font-size: 20px;
+    }
+
+    .about p {
+        width: 500px;
+        margin-left: 10rem;
+    }
+}
